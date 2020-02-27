@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/LCXReuseViewID.svg?style=flat)](https://cocoapods.org/pods/LCXReuseViewID)
 [![Platform](https://img.shields.io/cocoapods/p/LCXReuseViewID.svg?style=flat)](https://cocoapods.org/pods/LCXReuseViewID)
 
+## Function
+
+simple use of reuseViewID for UITableViewCell/UITableViewHeaderFooterView/UICollectionViewCell/UICollectionReusableView.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
