@@ -7,7 +7,7 @@
 
 ## Function
 
-simple use of reuseViewID for UITableViewCell/UITableViewHeaderFooterView/UICollectionViewCell/UICollectionReusableView.
+A simple use of reuseViewID for UITableViewCell/UITableViewHeaderFooterView/UICollectionViewCell/UICollectionReusableView.
 
 ## Example
 
