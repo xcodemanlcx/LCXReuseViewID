@@ -1,5 +1,5 @@
 PODS:
-  - LCXReuseViewID (0.1.1)
+  - LCXReuseViewID (0.1.2)
 
 DEPENDENCIES:
   - LCXReuseViewID (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LCXReuseViewID: d28bb2b6860cdff5f4bce47f7a651d0895cc46a7
+  LCXReuseViewID: 880311608459883e5043495f346c3ec6a017150d
 
 PODFILE CHECKSUM: 50bc9abdaa6d827378a698c58b48841b6bf74c38
 

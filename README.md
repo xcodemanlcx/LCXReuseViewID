@@ -5,7 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/LCXReuseViewID.svg?style=flat)](https://cocoapods.org/pods/LCXReuseViewID)
 [![Platform](https://img.shields.io/cocoapods/p/LCXReuseViewID.svg?style=flat)](https://cocoapods.org/pods/LCXReuseViewID)
 
-## 作用：UITableViewCell、UITableViewHeaderFooterView；UICollectionViewCell、UICollectionReusableView注册复用id的超级简便使用；
+## 作用：注册复用view的超级简便使用；
+
+## 支持：UITableViewCell、UITableViewHeaderFooterView；UICollectionViewCell、UICollectionReusableView；
  
  ## 思路：
  1 以复用View的类名作为复用id；

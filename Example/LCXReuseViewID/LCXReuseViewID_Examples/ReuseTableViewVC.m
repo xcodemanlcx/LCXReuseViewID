@@ -34,8 +34,15 @@
     _tableView.backgroundColor = [UIColor whiteColor];
     
     /**
-     思路：以复用View的类名作为复用id；
-     优点：以UITableViewCell子类的注册复用为例：
+     ## 作用：注册复用view的超级简便使用；
+     
+     ## 支持：UITableViewCell、UITableViewHeaderFooterView；UICollectionViewCell、UICollectionReusableView；
+     
+     ## 思路：
+     1 以复用View的类名作为复用id；
+     2 通过runtime给分类添加属性；
+
+     ## 优点：以UITableViewCell子类的注册复用为例：
      1 免import使用cell的头文件；
      2 免命名reuseID；
      3 免重复register复用cell类（特别cell种类多时，代码简化作用明显）；
