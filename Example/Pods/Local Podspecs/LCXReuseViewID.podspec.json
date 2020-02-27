@@ -1,9 +1,9 @@
 {
   "name": "LCXReuseViewID",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "ReuseViewIDs for UITableView and UICollectionView.",
   "description": "TODO: simple use of reuseViewID for UITableViewCell/UITableViewHeaderFooterView/UICollectionViewCell/UICollectionReusableView.",
-  "homepage": "https://github.com/475512103@qq.com/LCXReuseViewID",
+  "homepage": "https://github.com/xcodemanlcx/LCXReuseViewID",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "475512103@qq.com": "leichunxiang58@163.com"
   },
   "source": {
-    "git": "https://github.com/475512103@qq.com/LCXReuseViewID.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/xcodemanlcx/LCXReuseViewID.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"

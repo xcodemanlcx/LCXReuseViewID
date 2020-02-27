@@ -7,6 +7,8 @@
 //
 
 #import "LCXViewController.h"
+#import "ReuseTableViewVC.h"
+#import "ReuseCollectionViewVC.h"
 
 @interface LCXViewController ()
 
@@ -18,6 +20,20 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+
+}
+
+- (IBAction)reuseTableViewAction:(id)sender {
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:ReuseTableViewVC.new];
+    nav.navigationBar.translucent = NO;
+    [self presentViewController:nav animated:YES completion:nil];
+}
+
+- (IBAction)reuseCollectionView:(id)sender {
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:ReuseCollectionViewVC.new];
+    nav.navigationBar.translucent = NO;
+    [self presentViewController:nav animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning
