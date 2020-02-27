@@ -1,0 +1,16 @@
+PODS:
+  - LCXReuseViewID (0.1.0)
+
+DEPENDENCIES:
+  - LCXReuseViewID (from `../`)
+
+EXTERNAL SOURCES:
+  LCXReuseViewID:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LCXReuseViewID: 0d2157ce307f4f0b547da9c7d667fab8eebf8670
+
+PODFILE CHECKSUM: 50bc9abdaa6d827378a698c58b48841b6bf74c38
+
+COCOAPODS: 1.8.4

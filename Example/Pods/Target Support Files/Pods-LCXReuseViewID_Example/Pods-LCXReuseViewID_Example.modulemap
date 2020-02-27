@@ -1,0 +1,6 @@
+framework module Pods_LCXReuseViewID_Example {
+  umbrella header "Pods-LCXReuseViewID_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

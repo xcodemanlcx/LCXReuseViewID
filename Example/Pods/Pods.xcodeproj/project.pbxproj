@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035DAF435A217AC47A024EA314680BD0 /* UIView+LCXReuseViewID.h in Headers */ = {isa = PBXBuildFile; fileRef = E0CF89D3387FA16281005D38BE410FA9 /* UIView+LCXReuseViewID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20B97B391F7A08DE36152BC18C296E38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		26676A4684B7D2B1ABF17129CE0228FE /* LCXReuseViewID.h in Headers */ = {isa = PBXBuildFile; fileRef = EDD9A582A0304B4A4B9622CF153A6D1D /* LCXReuseViewID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		350729925EE0411DFA38C6FD4C258F08 /* Pods-LCXReuseViewID_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E54AAD425E3EEFE5EABF0FDE84202184 /* Pods-LCXReuseViewID_Tests-dummy.m */; };
+		3CC7B2A51D59E25EAE99AA7591F12783 /* UICollectionView+LCXReuseViewID.h in Headers */ = {isa = PBXBuildFile; fileRef = 6731F229E31D4A751FAA1DE8BCF91904 /* UICollectionView+LCXReuseViewID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D7A2A848015BFE1CBD082DB72E29BD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		875C7A0BA7F8BE87B6A0BE5F63111870 /* UICollectionView+LCXReuseViewID.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB5E82DF8C375938302EB3F40C65714 /* UICollectionView+LCXReuseViewID.m */; };
+		88B0F623AF0743B3DCD27706D4E3E285 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8F007B0918C22D53DEE80FA2BF66EE71 /* Pods-LCXReuseViewID_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7634AD06308EF0F453E5BBE547AA47B8 /* Pods-LCXReuseViewID_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9873022688C80C189E347AD9EF4A0484 /* UITableView+LCXReuseViewID.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B7BEA1A7D571A3C5EABFB84721A05C /* UITableView+LCXReuseViewID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B6A5F070443D6AEF8CF2AFA5F1E8E64 /* LCXReuseViewID-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FBDFBEB0CFA80A93026AAE2D2300C4 /* LCXReuseViewID-dummy.m */; };
+		C31B5D12CDDB96CBBDAEE1C5DA869B17 /* Pods-LCXReuseViewID_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9399B7A40E1A56122C20310DF339977D /* Pods-LCXReuseViewID_Example-dummy.m */; };
+		CC222BA4EF693991146588CC1AB55C57 /* UIView+LCXReuseViewID.m in Sources */ = {isa = PBXBuildFile; fileRef = B10D7F2AE8A192BC1395868BB12B7B25 /* UIView+LCXReuseViewID.m */; };
+		D5917EC02A1B4BAB51327B5AFC949B8C /* Pods-LCXReuseViewID_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E5C0FC0C418C78398A38CE7B2C475B5 /* Pods-LCXReuseViewID_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF3674016A7A524296FEB896B0895645 /* UITableView+LCXReuseViewID.m in Sources */ = {isa = PBXBuildFile; fileRef = AC285886DA26736C67D4914B7A5ED034 /* UITableView+LCXReuseViewID.m */; };
+		FFA0B919EF3BC0FA9AA715FF52D4DEAD /* LCXReuseViewID-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5004165AF491F65219943BE020D79AD5 /* LCXReuseViewID-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		503995AA44814BD40E1AB9D5BE91EC2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61E834AA8FDA6F581189A759D6566478;
+			remoteInfo = "Pods-LCXReuseViewID_Example";
+		};
+		54C184864BBF2A7EDE6BC88B315FA9B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFED030C901EB6703717BEBD5F9FB2C6;
+			remoteInfo = LCXReuseViewID;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B1A8AF42E240F121471F207B64A852F /* LCXReuseViewID-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LCXReuseViewID-Info.plist"; sourceTree = "<group>"; };
+		0E5C0FC0C418C78398A38CE7B2C475B5 /* Pods-LCXReuseViewID_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCXReuseViewID_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1493C031D628940C9799A2B2117D18C7 /* Pods-LCXReuseViewID_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCXReuseViewID_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		168BD5CC115A7C9D36B46AF4E09EEC6B /* Pods-LCXReuseViewID_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCXReuseViewID_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2F41F3B75641155EE0D9A2D51575697E /* Pods-LCXReuseViewID_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LCXReuseViewID_Tests.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F875E62B7529E1962957D92606114CE /* Pods_LCXReuseViewID_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LCXReuseViewID_Tests.framework; path = "Pods-LCXReuseViewID_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E8BFBD88F1DFCFC35C9F8453B00CBC /* Pods-LCXReuseViewID_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCXReuseViewID_Example-Info.plist"; sourceTree = "<group>"; };
+		5004165AF491F65219943BE020D79AD5 /* LCXReuseViewID-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCXReuseViewID-umbrella.h"; sourceTree = "<group>"; };
+		65FE9CC5D1F9591F348D1316F7970258 /* Pods-LCXReuseViewID_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCXReuseViewID_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6731F229E31D4A751FAA1DE8BCF91904 /* UICollectionView+LCXReuseViewID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+LCXReuseViewID.h"; path = "LCXReuseViewID/Classes/UICollectionView+LCXReuseViewID.h"; sourceTree = "<group>"; };
+		7634AD06308EF0F453E5BBE547AA47B8 /* Pods-LCXReuseViewID_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCXReuseViewID_Example-umbrella.h"; sourceTree = "<group>"; };
+		86D65406F71B8DE01ECC349AF3D73988 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8CB2EAFE169B9BD43FD8FED16AC4B294 /* Pods_LCXReuseViewID_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LCXReuseViewID_Example.framework; path = "Pods-LCXReuseViewID_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB1C117F40F2DA460155B72D0761792 /* Pods-LCXReuseViewID_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LCXReuseViewID_Example.modulemap"; sourceTree = "<group>"; };
+		9399B7A40E1A56122C20310DF339977D /* Pods-LCXReuseViewID_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCXReuseViewID_Example-dummy.m"; sourceTree = "<group>"; };
+		97B0A4EAA73DF2A87FD9EEF0DD4B1A54 /* LCXReuseViewID.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LCXReuseViewID.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A63632036045ECD5F16A426DD207E204 /* LCXReuseViewID-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCXReuseViewID-prefix.pch"; sourceTree = "<group>"; };
+		A72B6EB5E93A026D467C13353B2D6D34 /* Pods-LCXReuseViewID_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCXReuseViewID_Tests-Info.plist"; sourceTree = "<group>"; };
+		AC285886DA26736C67D4914B7A5ED034 /* UITableView+LCXReuseViewID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+LCXReuseViewID.m"; path = "LCXReuseViewID/Classes/UITableView+LCXReuseViewID.m"; sourceTree = "<group>"; };
+		AF920B0FFF149ED4FFCA12CCB4894160 /* LCXReuseViewID.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCXReuseViewID.xcconfig; sourceTree = "<group>"; };
+		B10D7F2AE8A192BC1395868BB12B7B25 /* UIView+LCXReuseViewID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LCXReuseViewID.m"; path = "LCXReuseViewID/Classes/UIView+LCXReuseViewID.m"; sourceTree = "<group>"; };
+		B4D6CFCA7AA17BAC76CD67AF3EA39857 /* Pods-LCXReuseViewID_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCXReuseViewID_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BF1DAB86D96A73FE8414456219321234 /* Pods-LCXReuseViewID_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCXReuseViewID_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C372FCB31E322268F2E43AABEF208883 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C92E869E90303956E800F1AF295DF536 /* Pods-LCXReuseViewID_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCXReuseViewID_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CCF868AB3B1EA36BA2FF0D96914C2E43 /* LCXReuseViewID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LCXReuseViewID.framework; path = LCXReuseViewID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5F82A8348C242F03D0814DE98A4DC8 /* Pods-LCXReuseViewID_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCXReuseViewID_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CECA10BDCD1AAF334C0AC81ED89DA6E5 /* Pods-LCXReuseViewID_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCXReuseViewID_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2B7BEA1A7D571A3C5EABFB84721A05C /* UITableView+LCXReuseViewID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+LCXReuseViewID.h"; path = "LCXReuseViewID/Classes/UITableView+LCXReuseViewID.h"; sourceTree = "<group>"; };
+		E0CF89D3387FA16281005D38BE410FA9 /* UIView+LCXReuseViewID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LCXReuseViewID.h"; path = "LCXReuseViewID/Classes/UIView+LCXReuseViewID.h"; sourceTree = "<group>"; };
+		E54AAD425E3EEFE5EABF0FDE84202184 /* Pods-LCXReuseViewID_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCXReuseViewID_Tests-dummy.m"; sourceTree = "<group>"; };
+		E97F90309E3C61415E05D97364C89974 /* Pods-LCXReuseViewID_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCXReuseViewID_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EAB5E82DF8C375938302EB3F40C65714 /* UICollectionView+LCXReuseViewID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+LCXReuseViewID.m"; path = "LCXReuseViewID/Classes/UICollectionView+LCXReuseViewID.m"; sourceTree = "<group>"; };
+		EDD9A582A0304B4A4B9622CF153A6D1D /* LCXReuseViewID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCXReuseViewID.h; path = LCXReuseViewID/Classes/LCXReuseViewID.h; sourceTree = "<group>"; };
+		F2FBDFBEB0CFA80A93026AAE2D2300C4 /* LCXReuseViewID-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LCXReuseViewID-dummy.m"; sourceTree = "<group>"; };
+		FBDC6398F919E56E28C14C8BBDBDEDC2 /* LCXReuseViewID.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LCXReuseViewID.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8809BCCF2E723168498A4F280A3E82A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B97B391F7A08DE36152BC18C296E38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD78F369205508E7302C4F2BE7C67374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B0F623AF0743B3DCD27706D4E3E285 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1DB5EE2E48BF03BE645F58602ABCE38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7A2A848015BFE1CBD082DB72E29BD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07111FFEE10BB4F1C0031FD5BA7A0388 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBDC6398F919E56E28C14C8BBDBDEDC2 /* LCXReuseViewID.modulemap */,
+				AF920B0FFF149ED4FFCA12CCB4894160 /* LCXReuseViewID.xcconfig */,
+				F2FBDFBEB0CFA80A93026AAE2D2300C4 /* LCXReuseViewID-dummy.m */,
+				0B1A8AF42E240F121471F207B64A852F /* LCXReuseViewID-Info.plist */,
+				A63632036045ECD5F16A426DD207E204 /* LCXReuseViewID-prefix.pch */,
+				5004165AF491F65219943BE020D79AD5 /* LCXReuseViewID-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LCXReuseViewID";
+			sourceTree = "<group>";
+		};
+		39AEFACA2D2F79B6EE569EB37C63220F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BC28AE605D1A315865F85DC2CE3CA14 /* Pods-LCXReuseViewID_Example */,
+				CFB409BE6E9F308EBE0F4879A34D5058 /* Pods-LCXReuseViewID_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5BC28AE605D1A315865F85DC2CE3CA14 /* Pods-LCXReuseViewID_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8DB1C117F40F2DA460155B72D0761792 /* Pods-LCXReuseViewID_Example.modulemap */,
+				CD5F82A8348C242F03D0814DE98A4DC8 /* Pods-LCXReuseViewID_Example-acknowledgements.markdown */,
+				1493C031D628940C9799A2B2117D18C7 /* Pods-LCXReuseViewID_Example-acknowledgements.plist */,
+				9399B7A40E1A56122C20310DF339977D /* Pods-LCXReuseViewID_Example-dummy.m */,
+				168BD5CC115A7C9D36B46AF4E09EEC6B /* Pods-LCXReuseViewID_Example-frameworks.sh */,
+				45E8BFBD88F1DFCFC35C9F8453B00CBC /* Pods-LCXReuseViewID_Example-Info.plist */,
+				7634AD06308EF0F453E5BBE547AA47B8 /* Pods-LCXReuseViewID_Example-umbrella.h */,
+				C92E869E90303956E800F1AF295DF536 /* Pods-LCXReuseViewID_Example.debug.xcconfig */,
+				65FE9CC5D1F9591F348D1316F7970258 /* Pods-LCXReuseViewID_Example.release.xcconfig */,
+			);
+			name = "Pods-LCXReuseViewID_Example";
+			path = "Target Support Files/Pods-LCXReuseViewID_Example";
+			sourceTree = "<group>";
+		};
+		69C36D60CBA975AD04C03E0E612D9F95 /* LCXReuseViewID */ = {
+			isa = PBXGroup;
+			children = (
+				EDD9A582A0304B4A4B9622CF153A6D1D /* LCXReuseViewID.h */,
+				6731F229E31D4A751FAA1DE8BCF91904 /* UICollectionView+LCXReuseViewID.h */,
+				EAB5E82DF8C375938302EB3F40C65714 /* UICollectionView+LCXReuseViewID.m */,
+				D2B7BEA1A7D571A3C5EABFB84721A05C /* UITableView+LCXReuseViewID.h */,
+				AC285886DA26736C67D4914B7A5ED034 /* UITableView+LCXReuseViewID.m */,
+				E0CF89D3387FA16281005D38BE410FA9 /* UIView+LCXReuseViewID.h */,
+				B10D7F2AE8A192BC1395868BB12B7B25 /* UIView+LCXReuseViewID.m */,
+				EAAAAED42161510CF27D74E7FC325D60 /* Pod */,
+				07111FFEE10BB4F1C0031FD5BA7A0388 /* Support Files */,
+			);
+			name = LCXReuseViewID;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A9B5B9EC840B5F2A9878D6F59133382B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF868AB3B1EA36BA2FF0D96914C2E43 /* LCXReuseViewID.framework */,
+				8CB2EAFE169B9BD43FD8FED16AC4B294 /* Pods_LCXReuseViewID_Example.framework */,
+				3F875E62B7529E1962957D92606114CE /* Pods_LCXReuseViewID_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B088021211C1F96895CEE9DF3974009B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69C36D60CBA975AD04C03E0E612D9F95 /* LCXReuseViewID */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B088021211C1F96895CEE9DF3974009B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A9B5B9EC840B5F2A9878D6F59133382B /* Products */,
+				39AEFACA2D2F79B6EE569EB37C63220F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFB409BE6E9F308EBE0F4879A34D5058 /* Pods-LCXReuseViewID_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2F41F3B75641155EE0D9A2D51575697E /* Pods-LCXReuseViewID_Tests.modulemap */,
+				E97F90309E3C61415E05D97364C89974 /* Pods-LCXReuseViewID_Tests-acknowledgements.markdown */,
+				BF1DAB86D96A73FE8414456219321234 /* Pods-LCXReuseViewID_Tests-acknowledgements.plist */,
+				E54AAD425E3EEFE5EABF0FDE84202184 /* Pods-LCXReuseViewID_Tests-dummy.m */,
+				A72B6EB5E93A026D467C13353B2D6D34 /* Pods-LCXReuseViewID_Tests-Info.plist */,
+				0E5C0FC0C418C78398A38CE7B2C475B5 /* Pods-LCXReuseViewID_Tests-umbrella.h */,
+				CECA10BDCD1AAF334C0AC81ED89DA6E5 /* Pods-LCXReuseViewID_Tests.debug.xcconfig */,
+				B4D6CFCA7AA17BAC76CD67AF3EA39857 /* Pods-LCXReuseViewID_Tests.release.xcconfig */,
+			);
+			name = "Pods-LCXReuseViewID_Tests";
+			path = "Target Support Files/Pods-LCXReuseViewID_Tests";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAAAAED42161510CF27D74E7FC325D60 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				97B0A4EAA73DF2A87FD9EEF0DD4B1A54 /* LCXReuseViewID.podspec */,
+				86D65406F71B8DE01ECC349AF3D73988 /* LICENSE */,
+				C372FCB31E322268F2E43AABEF208883 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		82B9EE106C24F3610351AD491B7543F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5917EC02A1B4BAB51327B5AFC949B8C /* Pods-LCXReuseViewID_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BFB8475DD542E3E3397742924CFB39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA0B919EF3BC0FA9AA715FF52D4DEAD /* LCXReuseViewID-umbrella.h in Headers */,
+				26676A4684B7D2B1ABF17129CE0228FE /* LCXReuseViewID.h in Headers */,
+				3CC7B2A51D59E25EAE99AA7591F12783 /* UICollectionView+LCXReuseViewID.h in Headers */,
+				9873022688C80C189E347AD9EF4A0484 /* UITableView+LCXReuseViewID.h in Headers */,
+				035DAF435A217AC47A024EA314680BD0 /* UIView+LCXReuseViewID.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9F638ACD3E93EE7D3303A57BD65ED2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F007B0918C22D53DEE80FA2BF66EE71 /* Pods-LCXReuseViewID_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		44F4446B97EE19D93E478C46B3C8B476 /* Pods-LCXReuseViewID_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242060F1FEF02E044EF4ADCF9192CB9E /* Build configuration list for PBXNativeTarget "Pods-LCXReuseViewID_Tests" */;
+			buildPhases = (
+				82B9EE106C24F3610351AD491B7543F7 /* Headers */,
+				1E1C02CAE519EE483EE75A82613C9D08 /* Sources */,
+				8809BCCF2E723168498A4F280A3E82A7 /* Frameworks */,
+				F44752A7F64EC0AEF8C3DCAA3E2622B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				391278448F473C4F952E87A60303867C /* PBXTargetDependency */,
+			);
+			name = "Pods-LCXReuseViewID_Tests";
+			productName = "Pods-LCXReuseViewID_Tests";
+			productReference = 3F875E62B7529E1962957D92606114CE /* Pods_LCXReuseViewID_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		61E834AA8FDA6F581189A759D6566478 /* Pods-LCXReuseViewID_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FAE14DADA615F04594E9BB099D2D0CB /* Build configuration list for PBXNativeTarget "Pods-LCXReuseViewID_Example" */;
+			buildPhases = (
+				ED9F638ACD3E93EE7D3303A57BD65ED2 /* Headers */,
+				8DA1D7EBC15307898BFE799B8F80C9AA /* Sources */,
+				CD78F369205508E7302C4F2BE7C67374 /* Frameworks */,
+				BE766E0CA0F851964CD8F8F10E3A6EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D0B50C17BF6A4A10F849A09058C5555 /* PBXTargetDependency */,
+			);
+			name = "Pods-LCXReuseViewID_Example";
+			productName = "Pods-LCXReuseViewID_Example";
+			productReference = 8CB2EAFE169B9BD43FD8FED16AC4B294 /* Pods_LCXReuseViewID_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFED030C901EB6703717BEBD5F9FB2C6 /* LCXReuseViewID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DCCEE0CB78709DFACB203C76B4626FF /* Build configuration list for PBXNativeTarget "LCXReuseViewID" */;
+			buildPhases = (
+				B9BFB8475DD542E3E3397742924CFB39 /* Headers */,
+				C9C2D39C8AEAF9A4A422FB3006750F22 /* Sources */,
+				E1DB5EE2E48BF03BE645F58602ABCE38 /* Frameworks */,
+				E2E4F8BDBF9332EF0A8CFB63DE56A3D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCXReuseViewID;
+			productName = LCXReuseViewID;
+			productReference = CCF868AB3B1EA36BA2FF0D96914C2E43 /* LCXReuseViewID.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A9B5B9EC840B5F2A9878D6F59133382B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFED030C901EB6703717BEBD5F9FB2C6 /* LCXReuseViewID */,
+				61E834AA8FDA6F581189A759D6566478 /* Pods-LCXReuseViewID_Example */,
+				44F4446B97EE19D93E478C46B3C8B476 /* Pods-LCXReuseViewID_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE766E0CA0F851964CD8F8F10E3A6EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2E4F8BDBF9332EF0A8CFB63DE56A3D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44752A7F64EC0AEF8C3DCAA3E2622B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E1C02CAE519EE483EE75A82613C9D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350729925EE0411DFA38C6FD4C258F08 /* Pods-LCXReuseViewID_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA1D7EBC15307898BFE799B8F80C9AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31B5D12CDDB96CBBDAEE1C5DA869B17 /* Pods-LCXReuseViewID_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C2D39C8AEAF9A4A422FB3006750F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6A5F070443D6AEF8CF2AFA5F1E8E64 /* LCXReuseViewID-dummy.m in Sources */,
+				875C7A0BA7F8BE87B6A0BE5F63111870 /* UICollectionView+LCXReuseViewID.m in Sources */,
+				EF3674016A7A524296FEB896B0895645 /* UITableView+LCXReuseViewID.m in Sources */,
+				CC222BA4EF693991146588CC1AB55C57 /* UIView+LCXReuseViewID.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D0B50C17BF6A4A10F849A09058C5555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LCXReuseViewID;
+			target = CFED030C901EB6703717BEBD5F9FB2C6 /* LCXReuseViewID */;
+			targetProxy = 54C184864BBF2A7EDE6BC88B315FA9B2 /* PBXContainerItemProxy */;
+		};
+		391278448F473C4F952E87A60303867C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LCXReuseViewID_Example";
+			target = 61E834AA8FDA6F581189A759D6566478 /* Pods-LCXReuseViewID_Example */;
+			targetProxy = 503995AA44814BD40E1AB9D5BE91EC2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02E44A8D40CA0CA42138AE0CAA65D51A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D6CFCA7AA17BAC76CD67AF3EA39857 /* Pods-LCXReuseViewID_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LCXReuseViewID_Tests/Pods-LCXReuseViewID_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LCXReuseViewID_Tests/Pods-LCXReuseViewID_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C68F78796396C69CE8BD4193FACD4388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C92E869E90303956E800F1AF295DF536 /* Pods-LCXReuseViewID_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LCXReuseViewID_Example/Pods-LCXReuseViewID_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LCXReuseViewID_Example/Pods-LCXReuseViewID_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC8D61E6D4BFE087367E5B287D87F224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF920B0FFF149ED4FFCA12CCB4894160 /* LCXReuseViewID.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LCXReuseViewID/LCXReuseViewID-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LCXReuseViewID/LCXReuseViewID-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LCXReuseViewID/LCXReuseViewID.modulemap";
+				PRODUCT_MODULE_NAME = LCXReuseViewID;
+				PRODUCT_NAME = LCXReuseViewID;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD0E89EE81E5EAC6519BE8172716306F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65FE9CC5D1F9591F348D1316F7970258 /* Pods-LCXReuseViewID_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LCXReuseViewID_Example/Pods-LCXReuseViewID_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LCXReuseViewID_Example/Pods-LCXReuseViewID_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA991C8F091004F0AEEDD94EE77E6FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF920B0FFF149ED4FFCA12CCB4894160 /* LCXReuseViewID.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LCXReuseViewID/LCXReuseViewID-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LCXReuseViewID/LCXReuseViewID-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LCXReuseViewID/LCXReuseViewID.modulemap";
+				PRODUCT_MODULE_NAME = LCXReuseViewID;
+				PRODUCT_NAME = LCXReuseViewID;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDE046FDE70791F19D79561CB3ED069E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CECA10BDCD1AAF334C0AC81ED89DA6E5 /* Pods-LCXReuseViewID_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LCXReuseViewID_Tests/Pods-LCXReuseViewID_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LCXReuseViewID_Tests/Pods-LCXReuseViewID_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		242060F1FEF02E044EF4ADCF9192CB9E /* Build configuration list for PBXNativeTarget "Pods-LCXReuseViewID_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE046FDE70791F19D79561CB3ED069E /* Debug */,
+				02E44A8D40CA0CA42138AE0CAA65D51A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FAE14DADA615F04594E9BB099D2D0CB /* Build configuration list for PBXNativeTarget "Pods-LCXReuseViewID_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68F78796396C69CE8BD4193FACD4388 /* Debug */,
+				CD0E89EE81E5EAC6519BE8172716306F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DCCEE0CB78709DFACB203C76B4626FF /* Build configuration list for PBXNativeTarget "LCXReuseViewID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA991C8F091004F0AEEDD94EE77E6FEF /* Debug */,
+				CC8D61E6D4BFE087367E5B287D87F224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

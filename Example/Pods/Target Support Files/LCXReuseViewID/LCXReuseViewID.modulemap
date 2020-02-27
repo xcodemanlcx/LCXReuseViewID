@@ -1,0 +1,6 @@
+framework module LCXReuseViewID {
+  umbrella header "LCXReuseViewID-umbrella.h"
+
+  export *
+  module * { export * }
+}
