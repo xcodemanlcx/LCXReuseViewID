@@ -10,16 +10,16 @@
 ## 支持：UITableViewCell、UITableViewHeaderFooterView；UICollectionViewCell、UICollectionReusableView；
  
  ## 思路：
- 1 以复用View的类名作为复用id；
- 2 通过runtime给分类添加属性；
+ * 1 以复用View的类名作为复用id；
+ * 2 通过runtime给分类添加属性；
  
  ## 优点：
  以UITableViewCell子类的注册复用为例：
- 1 免import使用cell的头文件；
- 2 免命名reuseID；
- 3 免重复register复用cell类（特别cell种类多时，代码简化作用明显）；
- 4 防止reuseID在register时和在tableview delegate中使用时，不一致错误；
- 5 打印提示：未注册成功的类名字符串；
+ * 1 免import使用cell的头文件；
+ * 2 免命名reuseID；
+ * 3 免重复register复用cell类（特别cell种类多时，代码简化作用明显）；
+ * 4 防止reuseID在register时和在tableview delegate中使用时，不一致错误；
+ * 5 打印提示：未注册成功的类名字符串；
  
  ## 注册复用cell代码
 _tableView.lcx_registerCellClassNames = @[@"ATableViewCell",@"BTableViewCell"];
